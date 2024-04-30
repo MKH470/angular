@@ -4,6 +4,7 @@
       <div *ngIf="supportedVersion; else notSupported" class="devtools-wrapper noselect" [@enterAnimation]>
         <ng-devtools-tabs [angularVersion]="angularVersion"></ng-devtools-tabs>
       </div>
+      test
       <ng-template #notSupported>
         <p class="text-message">
           Angular Devtools only supports Angular versions 12 and above
